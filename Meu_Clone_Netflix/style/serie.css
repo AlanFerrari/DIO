@@ -99,22 +99,33 @@ header nav a:hover{
     background-color: fff;
     border: none;
     padding: 13px 30px;
-    color: black;
     cursor: pointer;
     margin: 10px 10px 0 30px;
     font-size: 15px;
     font-weight: bolder;
     border-radius: 5px;
 }
+
 .filme-principal .botao2{
     background-color: #808080;
-    border: none;
     padding: 13px 30px;
-    color: white;
+    border: none;
     cursor: pointer;
     font-size: 15px;
     font-weight: bolder;
     border-radius: 5px;
+}
+
+.filme-principal .botao1 a{
+    color: black;
+}
+
+.filme-principal .botao2 a{
+    color: white;
+}
+
+.filme-principal .botoes a{
+    text-decoration: none;
 }
 
 .botao1:hover{
